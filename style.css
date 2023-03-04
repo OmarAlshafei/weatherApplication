@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Bold.ttf);
+}
+* {
+    font-family: "Poppins";
+}
+body {
+    background-image: url("Background.jpg");
+    background-color: deepskyblue;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.app-title {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.app-title p {
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 5em;
+    color: #333;
+}
+.name {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name p {
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1em;
+    color: #333;
+}
+.input{
+    text-align: center;
+    margin: 75px auto;
+}
+.input input[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 1px;
+    color: darkslateblue;
+    font-family:  "Poppins";
+    font-weight:bold;
+    font-size: 20px;
+}
+.card{
+    width: 50%;
+    background: whitesmoke;
+    height: 40vh;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 0px;
+    padding: 8px;
+    color: darkslateblue;
+    text-align: center;
+    font-size: 2em;
+    overflow-x: auto;
+}
+.close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.card h1{
+    padding: 0px 0;
+    text-align: center;
+}
+.card p{
+    text-align: center;
+    margin:40px 0;
+    font-size:45px;
+}
+.submit {
+    color: darkslateblue;
+    padding: 15px 30px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 1px;
+    font-family:  "Poppins";
+    font-size: 20px;
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Set font size */
+    margin: 10px 0px; /* Add margin */
+    cursor: pointer; /* Add cursor pointer */
+  }
+  
+  .submit:hover {
+    background-color: darkgray;
+  }
+  
+  .submit:active {
+    background-color: darkgray;
+    transform: translateY(1px);
+  }
