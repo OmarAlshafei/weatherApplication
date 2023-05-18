@@ -64,7 +64,7 @@
   }
   
   .input input[type="text"] {
-    width: 80%;
+    width: 100%;
     max-width: 600px;
     height: 55px;
     padding: 5px 10px;
@@ -78,14 +78,15 @@
   }
   
   .card {
-    width: fit-content;
-    max-width: 100%;
-    padding: 5px 10px;
+    width: 90%;
+    max-width: fit-content;
+    height: 90%;
+    max-height: fit-content;
     background: whitesmoke;
-    margin: 50px auto;
+    margin: auto auto;
     text-align: center;
     border-radius: 0;
-    padding: 8px;
+    padding: 25px 125px;
     color: #333;
     font-size: 1.5em;
     overflow-y: auto;
@@ -152,13 +153,11 @@
     }
   
     .input input[type="text"] {
-      max-width:fit-content;
+      max-width: 400px;
     }
   
     .card {
-      width: fit-content;
-      max-width: 100%;
-      height: max-content;
-      max-height: 100%;
+      width: 90%;
+      max-height: 50vh;
     }
   }
