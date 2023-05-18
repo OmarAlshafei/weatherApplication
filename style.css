@@ -156,7 +156,7 @@
     }
   
     .card {
-      width: 90%;
-      max-height: 50vh;
+      width: fit-content;
+      max-width: 100%;
     }
   }
