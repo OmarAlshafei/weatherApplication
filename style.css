@@ -128,6 +128,22 @@
   }
   
   @media (max-width: 768px) {
+    .app-title p {
+      font-size: 3em; /* Adjust the font size as needed */
+    }
+  
+    .name p {
+      font-size: 0.8em; /* Adjust the font size as needed */
+    }
+  
+    .input {
+      margin: 25px auto; /* Adjust the margin as needed */
+    }
+  
+    .card p {
+      font-size: 30px; /* Adjust the font size as needed */
+    }
+  
     .input input[type="text"] {
       max-width: 400px;
     }
