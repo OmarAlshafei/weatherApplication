@@ -10,7 +10,6 @@
   }
   
   body {
-    font-family: "Poppins", sans-serif;
     background-image: url("Background.jpg");
     background-color: deepskyblue;
     background-position: center;
@@ -31,7 +30,6 @@
   .app-title p {
     text-align: center;
     padding: 15px;
-    margin: 0 auto;
     font-size: 5em;
     color: #333;
   }
@@ -49,7 +47,6 @@
   .name p {
     text-align: center;
     padding: 15px;
-    margin: 0 auto;
     font-size: 1em;
     color: #333;
   }
@@ -60,21 +57,21 @@
   }
   
   .input input[type="text"] {
-    width: 600px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 600px;
     height: 55px;
     padding: 5px 10px;
     background: whitesmoke;
     border: none;
     border-radius: 1px;
     color: darkslateblue;
+    font-family: "Poppins";
     font-weight: bold;
     font-size: 20px;
   }
   
   .card {
     width: 50%;
-    max-width: 100%;
     background: whitesmoke;
     height: 40vh;
     margin: 50px auto;
@@ -110,10 +107,12 @@
     background: whitesmoke;
     border: none;
     border-radius: 1px;
+    font-family: "Poppins";
     font-size: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-size: 16px;
     margin: 10px 0;
     cursor: pointer;
   }
@@ -127,11 +126,8 @@
     transform: translateY(1px);
   }
   
-  /* Media Queries */
-  
   @media (max-width: 768px) {
     .input input[type="text"] {
-      width: 100%;
       max-width: 400px;
     }
   
@@ -140,17 +136,4 @@
       max-height: 50vh;
     }
   }
-  
-  /* Additional Features */
-  
-  /* Mobile Navigation Menu */
-  
-  .menu-icon {
-    display: none;
-    cursor: pointer;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between
   
