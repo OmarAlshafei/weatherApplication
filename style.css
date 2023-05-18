@@ -4,10 +4,13 @@
   }
   
   * {
-    font-family: "Poppins";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
   
   body {
+    font-family: "Poppins", sans-serif;
     background-image: url("Background.jpg");
     background-color: deepskyblue;
     background-position: center;
@@ -58,19 +61,20 @@
   
   .input input[type="text"] {
     width: 600px;
+    max-width: 100%;
     height: 55px;
     padding: 5px 10px;
     background: whitesmoke;
     border: none;
     border-radius: 1px;
     color: darkslateblue;
-    font-family: "Poppins";
     font-weight: bold;
     font-size: 20px;
   }
   
   .card {
     width: 50%;
+    max-width: 100%;
     background: whitesmoke;
     height: 40vh;
     margin: 50px auto;
@@ -106,12 +110,10 @@
     background: whitesmoke;
     border: none;
     border-radius: 1px;
-    font-family: "Poppins";
     font-size: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     margin: 10px 0;
     cursor: pointer;
   }
@@ -128,7 +130,6 @@
   /* Media Queries */
   
   @media (max-width: 768px) {
-  
     .input input[type="text"] {
       width: 100%;
       max-width: 400px;
@@ -139,4 +140,17 @@
       max-height: 50vh;
     }
   }
+  
+  /* Additional Features */
+  
+  /* Mobile Navigation Menu */
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between
   
