@@ -16,6 +16,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
   }
   
   .app-title {
@@ -58,31 +64,38 @@
   }
   
   .input input[type="text"] {
-    width: 100%;
+    width: 80%;
     max-width: 600px;
     height: 55px;
     padding: 5px 10px;
     background: whitesmoke;
     border: none;
     border-radius: 1px;
-    color: darkslateblue;
+    color: #333;
     font-family: "Poppins";
     font-weight: bold;
     font-size: 20px;
   }
   
   .card {
-    width: 50%;
+    width: fit-content;
+    max-width: 100%;
+    padding: 5px 10px;
     background: whitesmoke;
-    height: 40vh;
     margin: 50px auto;
     text-align: center;
     border-radius: 0;
     padding: 8px;
-    color: darkslateblue;
-    font-size: 2em;
+    color: #333;
+    font-size: 1.5em;
     overflow-y: auto;
   }
+  
+  .card p {
+    margin: 20px 0;
+    line-height: 1.5;
+  }
+  
   
   .close {
     float: right;
@@ -96,14 +109,8 @@
     text-align: center;
   }
   
-  .card p {
-    text-align: center;
-    margin: 40px 0;
-    font-size: 45px;
-  }
-  
   .submit {
-    color: darkslateblue;
+    color: #333;
     padding: 15px 30px;
     background: whitesmoke;
     border: none;
@@ -129,19 +136,19 @@
   
   @media (max-width: 768px) {
     .app-title p {
-      font-size: 3em; /* Adjust the font size as needed */
+      font-size: 3em;
     }
   
     .name p {
-      font-size: 0.8em; /* Adjust the font size as needed */
+      font-size: 0.8em;
     }
   
     .input {
-      margin: 25px auto; /* Adjust the margin as needed */
+      margin: 25px auto;
     }
   
     .card p {
-      font-size: 30px; /* Adjust the font size as needed */
+      font-size: 30px;
     }
   
     .input input[type="text"] {
@@ -153,4 +160,3 @@
       max-height: 50vh;
     }
   }
-  
