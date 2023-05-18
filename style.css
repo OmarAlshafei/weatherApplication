@@ -157,6 +157,6 @@
   
     .card {
       width: 90%;
-      max-height: 50vh;
+      max-height:fit-content;
     }
   }
