@@ -2,8 +2,7 @@ var input = document.querySelector('.input_text');
 var main = document.querySelector('#name');
 var temp = document.querySelector('.temp');
 var desc = document.querySelector('.desc');
-var clouds = document.querySelector('.clouds');
-var button= document.querySelector('.submit');
+var button = document.querySelector('.submit');
 
 
   
