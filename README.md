@@ -2,9 +2,6 @@
 
 This is a simple weather application that allows you to check the current weather conditions for a specific city. You can enter the name of the city and click the "Submit" button to fetch and display the weather information.
 
-## Author
-
-This project is created by Omar Alshafei.
 
 ## Technologies Used
 
@@ -42,5 +39,6 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=A
 
 Make sure to keep your API key secure and avoid sharing it publicly.
 
-Credits
+## Author
+
 This project is created by Omar Alshafei.
