@@ -2,6 +2,10 @@
 
 This is a simple weather application that allows you to check the current weather conditions for a specific city. You can enter the name of the city and click the "Submit" button to fetch and display the weather information.
 
+## Author
+
+This project is created by Omar Alshafei.
+
 ## Technologies Used
 
 - HTML
