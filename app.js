@@ -3,7 +3,6 @@ var main = document.querySelector('#name');
 var temp = document.querySelector('.temp');
 var desc = document.querySelector('.desc');
 var button = document.querySelector('.submit');
-var myApi = config.MY_API_KEY;
 var myApi = process.env.MY_API_KEY;
 button.addEventListener('click', function() {
   fetch('https://api.openweathermap.org/data/2.5/weather?q=' + input.value + '&appid=' + myApi)
