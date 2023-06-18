@@ -17,6 +17,10 @@ This is a simple weather application that allows you to check the current weathe
 
 ![Weather App Preview](preview.png)
 
+## Live Demo
+
+Check out the live demo of the Weather App [here](https://weather-app-by-omar-alshafei.vercel.app/).
+
 ## CSS Styles
 
 The CSS code for styling the weather app interface is located in the `style.css` file. It includes styles for the app title, input field, card layout, and responsive design for different screen sizes.
