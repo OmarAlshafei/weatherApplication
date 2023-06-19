@@ -1,2 +1,2 @@
-config.js
-.env
+next.config.js
+env.local
