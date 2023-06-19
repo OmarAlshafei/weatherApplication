@@ -3,17 +3,9 @@ var main = document.querySelector('#name');
 var temp = document.querySelector('.temp');
 var desc = document.querySelector('.desc');
 var button = document.querySelector('.submit');
-var myApi = proccess.env.MY_API_KEY;
-
-const myApi = process.env.API_KEY;
-getUsers = () => {
-  return fetch(`${myApi}/users`)
-  .then(res => res.json())
-};
-
 
 button.addEventListener('click', function() {
-  fetch('https://api.openweathermap.org/data/2.5/weather?q=' + input.value + '&appid=' + myApi)
+  fetch('https://api.openweathermap.org/data/2.5/weather?q=' + input.value + '&appid=08bdb4d67b1acf36d10f60e307e3bebf')
     .then(response => response.json())
     .then(data => {
       var tempValue = data['main']['temp'];
