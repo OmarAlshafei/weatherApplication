@@ -14,10 +14,6 @@ This is a simple weather application that allows you to check the current weathe
 1. Clone or download this repository.
 2. Open the `index.html` file in your web browser.
 
-## Preview
-
-![Weather App Preview](preview.png)
-
 ## Live Demo
 
 Check out the live demo of the Weather App [here](https://weather-app-by-omar-alshafei.vercel.app/).
